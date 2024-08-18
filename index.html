@@ -1,14 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>MOHIT RESUME</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+<title>Page Title</title>
 </head>
 <body>
-    <h1>HBeautiful code </h1>
+
+<h2>1. Setup a new repository  </h2>
+<p>git remote add origin https://github.com/mohit12390/PythonRepo.git </p>
+<p>git branch -M main </p>
+<p>git push -u origin main </p>
+<h2>2. Adding the file to stage area </h2>
+<p>git add . </p>
+<h2>3. Commit the file to local repo</h2>
+<p>git commit -m "Readme file and ignore some useless file " </p>
+<h2>4. Push the change to remote repository</h2>
+<p>git push </p>
+<h2>5. check if any changes trackable for stage file .</h2>
+<p>git status </p>
+<h2>6. Check what all branch we are having </h2>
+<p>git branch </p>
+<h2>7. create an switch to new branch feature</h2>
+<p>git checkout -b  feature </p>
+<h2>8. Switch to the main branch  </h2>
+<p>git checkout main </p>
+<h2>9. accidentally edit file remove the new content </h2>
+<p>git restore test.py </p>
+<p>git restore pythonProject1/test.py </p>
+<h2>10. Remove the file from Staged area </h2>
+<p>git restore --staged  pythonProject1/test.py </p>
+<h2>11. check the commit log in one line </h2>
+<p>git log --oneline </p>
+<h2>12. Check the diff of file from olderversion vs new version</h2>
+<p>git diff test.py </p>
+<h2>13. check the file content of any comit </h2>
+<p>git show 2e3228e:test.py </p>
+<h2>14. Change the file to old commit </h2>
+<p>git checkout 2e3228e --* </p>
+<h2>15. in stage aread if you modified any file , back to previous stage </h2>
+<p>git restore --worktree . </p>
+<h2>16. remove or delete commit the last one </h2>
+<p>git reset --hard HEAD^ </p>
+<h2>17. some additioned feature of commit log </h2>
+<p>git log </p>
+<p>git log -p -2 </p>
+<p>git log --stat </p>
+<p>git log --oneline </p>
+<h2>18. check the remote branch </h2>
+<p>git remote </p>
+<p>git remote -v </p>
+<h2>19. Check the config of commit .</h2>
+<p>git config --list </p>
+<p>git config --global user.name "Mohit Gangil" </p>
+<p>git config --global user.email "mohit.gangil2012@gmail.com" </p>
+<p>git config user.name </p>
+<p>git config user.email </p>
+
+
 </body>
-</html>>
+</html>
+
